@@ -93,7 +93,7 @@ function ContactSection() {
       </div>
       {/* form */}
       <form
-        className={`col-span-4 md:col-span-6 p-[15px] md:p-[31px] shadow-lg rounded-lg bg-white border border-neutral-200 ${
+        className={`col-span-4 md:col-span-6 p-[15px] md:p-[31px] shadow-lg rounded-lg bg-white border border-neutral-200 h-fit my-auto ${
           apiResponse?.message && "hidden"
         }`}
         action={handleSubmit}
